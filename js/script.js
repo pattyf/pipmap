@@ -1,9 +1,13 @@
 //new map
+var osmUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+osmAttrib = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+osm = L.tileLayer(osmUrl, {maxZoom: 19, attribution: osmAttrib});
 var map = L.map('map', {
     center: [37.866676, -122.277469], // EDIT latitude, longitude to re-center map
     zoom: 13,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
     scrollWheelZoom: false
   });
+osm.addTo(map)
 
 // We'll append our markers to this global variable
 var json_group = new L.FeatureGroup();
