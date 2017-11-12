@@ -227,12 +227,13 @@ $('select').change(function() {
 
 //---------------------------------------------------------------------
 /* Upload Latitude/Longitude markers from data.csv file, show Title in pop-up, and override initial center and zoom to fit all in map */
-var json_group = L.geoJson(null, {
+
+var customLayer = L.geoJson(null, {
   onEachFeature: function(feature, layer) {
     layer.bindPopup(feature.properties.Title);
   }
  });
- var runLayer = omnivore.csv('./data.csv', null, json_group)
+ var runLayer = omnivore.csv('./js/data.csv', null, customLayer)
  .on('ready', function() {
   map.fitBounds(runLayer.getBounds());
  }).addTo(map);
