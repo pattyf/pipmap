@@ -1,0 +1,780 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2017-11-10T03:31:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358760904",
+        "amenity": "school",
+        "ele": "16",
+        "gnis:county_id": "013",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "218203",
+        "gnis:state_id": "06",
+        "name": "Alvarado School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130255,
+          37.9079806
+        ]
+      },
+      "id": "node/358760904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358761286",
+        "amenity": "school",
+        "ele": "14",
+        "gnis:county_id": "013",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "218564",
+        "gnis:state_id": "06",
+        "name": "Balboa School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3160812,
+          37.9177026
+        ]
+      },
+      "id": "node/358761286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358762970",
+        "amenity": "school",
+        "ele": "42",
+        "gnis:county_id": "013",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "220435",
+        "gnis:state_id": "06",
+        "name": "Christiana B Cameron Elementary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3065819,
+          37.9220539
+        ]
+      },
+      "id": "node/358762970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358764125",
+        "amenity": "school",
+        "ele": "9",
+        "gnis:county_id": "013",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "221578",
+        "gnis:state_id": "06",
+        "name": "Coronado Elementary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3499708,
+          37.9274246
+        ]
+      },
+      "id": "node/358764125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358764621",
+        "amenity": "school",
+        "ele": "61",
+        "gnis:county_id": "013",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "222225",
+        "gnis:state_id": "06",
+        "name": "Prospect Sierra School Middle Campus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.298604,
+          37.9152118
+        ]
+      },
+      "id": "node/358764621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358766727",
+        "amenity": "school",
+        "ele": "14",
+        "gnis:county_id": "013",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "224385",
+        "gnis:state_id": "06",
+        "name": "Kennedy High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3283036,
+          37.9246468
+        ]
+      },
+      "id": "node/358766727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358769976",
+        "amenity": "school",
+        "ele": "209",
+        "gnis:county_id": "013",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "227914",
+        "gnis:state_id": "06",
+        "name": "Madera School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2985164,
+          37.9280858
+        ]
+      },
+      "id": "node/358769976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358772573",
+        "amenity": "school",
+        "ele": "51",
+        "gnis:county_id": "001",
+        "gnis:created": "06/14/2000",
+        "gnis:edited": "05/25/2007",
+        "gnis:feature_id": "230522",
+        "gnis:state_id": "06",
+        "name": "Peralta Child Development Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2591357,
+          37.8496487
+        ]
+      },
+      "id": "node/358772573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358773114",
+        "amenity": "school",
+        "ele": "17",
+        "gnis:county_id": "013",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "231087",
+        "gnis:state_id": "06",
+        "name": "King Elementary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3321926,
+          37.9290912
+        ]
+      },
+      "id": "node/358773114"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358774207",
+        "amenity": "school",
+        "ele": "18",
+        "gnis:county_id": "013",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "232176",
+        "gnis:state_id": "06",
+        "name": "Saint John School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3135811,
+          37.9196469
+        ]
+      },
+      "id": "node/358774207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358776557",
+        "amenity": "school",
+        "ele": "10",
+        "gnis:county_id": "013",
+        "gnis:created": "06/14/2000",
+        "gnis:feature_id": "235434",
+        "gnis:state_id": "06",
+        "name": "Stege Elementary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3230257,
+          37.9204803
+        ]
+      },
+      "id": "node/358776557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358777897",
+        "amenity": "school",
+        "ele": "7",
+        "gnis:county_id": "013",
+        "gnis:created": "01/19/1981",
+        "gnis:feature_id": "236859",
+        "gnis:state_id": "06",
+        "name": "University of California Engineering Field Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3349705,
+          37.9174248
+        ]
+      },
+      "id": "node/358777897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358817948",
+        "amenity": "school",
+        "ele": "38",
+        "gnis:county_id": "001",
+        "gnis:created": "03/20/1996",
+        "gnis:feature_id": "1676039",
+        "gnis:state_id": "06",
+        "name": "Saint Joseph the Worker School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2788582,
+          37.8688149
+        ]
+      },
+      "id": "node/358817948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358817951",
+        "amenity": "school",
+        "ele": "31",
+        "gnis:county_id": "001",
+        "gnis:created": "03/20/1996",
+        "gnis:feature_id": "1676041",
+        "gnis:state_id": "06",
+        "name": "Sheltons School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2705247,
+          37.8482599
+        ]
+      },
+      "id": "node/358817951"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358819742",
+        "amenity": "school",
+        "ele": "97",
+        "gnis:county_id": "001",
+        "gnis:created": "05/08/1996",
+        "gnis:feature_id": "1693076",
+        "gnis:state_id": "06",
+        "name": "The College Preparatory School",
+        "wikidata": "Q7726758"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2408019,
+          37.8490931
+        ]
+      },
+      "id": "node/358819742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358820758",
+        "amenity": "school",
+        "ele": "14",
+        "gnis:county_id": "013",
+        "gnis:created": "11/22/1996",
+        "gnis:feature_id": "1701540",
+        "gnis:state_id": "06",
+        "name": "Kappa Continuation High School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3299704,
+          37.9249246
+        ]
+      },
+      "id": "node/358820758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358820849",
+        "amenity": "school",
+        "ele": "7",
+        "gnis:county_id": "013",
+        "gnis:created": "11/22/1996",
+        "gnis:feature_id": "1701571",
+        "gnis:state_id": "06",
+        "name": "Nomura Pre-School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3156225,
+          37.9098189
+        ]
+      },
+      "id": "node/358820849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358820882",
+        "amenity": "school",
+        "ele": "7",
+        "gnis:county_id": "013",
+        "gnis:created": "11/22/1996",
+        "gnis:feature_id": "1701581",
+        "gnis:state_id": "06",
+        "name": "Pacific Academy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3157075,
+          37.9096509
+        ]
+      },
+      "id": "node/358820882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358820946",
+        "amenity": "school",
+        "ele": "12",
+        "gnis:county_id": "013",
+        "gnis:created": "11/22/1996",
+        "gnis:feature_id": "1701605",
+        "gnis:state_id": "06",
+        "name": "Pullman Child Care Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3430262,
+          37.9279801
+        ]
+      },
+      "id": "node/358820946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358821131",
+        "amenity": "school",
+        "ele": "36",
+        "gnis:county_id": "013",
+        "gnis:created": "11/22/1996",
+        "gnis:feature_id": "1701672",
+        "gnis:state_id": "06",
+        "name": "Windrush School",
+        "website": "http://www.windrush.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.3130255,
+          37.9257578
+        ]
+      },
+      "id": "node/358821131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358854809",
+        "amenity": "school",
+        "ele": "26",
+        "gnis:county_id": "001",
+        "gnis:created": "04/18/2006",
+        "gnis:feature_id": "2086915",
+        "gnis:state_id": "06",
+        "name": "Berkeley Academy For Youth Development"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2733333,
+          37.8466667
+        ]
+      },
+      "id": "node/358854809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358854877",
+        "amenity": "school",
+        "ele": "333",
+        "gnis:county_id": "001",
+        "gnis:created": "05/22/2006",
+        "gnis:edited": "01/04/2008",
+        "gnis:feature_id": "2086944",
+        "gnis:state_id": "06",
+        "name": "Pacific Lutheran Theological Seminary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2587528,
+          37.8971735
+        ]
+      },
+      "id": "node/358854877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358857615",
+        "amenity": "school",
+        "ele": "39",
+        "gnis:county_id": "001",
+        "gnis:created": "05/25/2007",
+        "gnis:feature_id": "2124395",
+        "gnis:state_id": "06",
+        "name": "Sankofa Academy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2647222,
+          37.8469444
+        ]
+      },
+      "id": "node/358857615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358857695",
+        "amenity": "school",
+        "ele": "15",
+        "gnis:county_id": "001",
+        "gnis:created": "06/04/2007",
+        "gnis:feature_id": "2125736",
+        "gnis:state_id": "06",
+        "name": "Civicorps Elementary School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2835297,
+          37.8472917
+        ]
+      },
+      "id": "node/358857695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358858149",
+        "amenity": "school",
+        "ele": "51",
+        "gnis:county_id": "001",
+        "gnis:created": "01/04/2008",
+        "gnis:feature_id": "2370556",
+        "gnis:state_id": "06",
+        "name": "Acupuncture and Integrative Medicine College - Berkeley"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2675942,
+          37.8627507
+        ]
+      },
+      "id": "node/358858149"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358858160",
+        "amenity": "school",
+        "ele": "7",
+        "gnis:county_id": "001",
+        "gnis:created": "01/04/2008",
+        "gnis:feature_id": "2370560",
+        "gnis:state_id": "06",
+        "name": "Silicon Valley College - Emeryville"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2918974,
+          37.8469925
+        ]
+      },
+      "id": "node/358858160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358858264",
+        "amenity": "school",
+        "ele": "98",
+        "gnis:county_id": "001",
+        "gnis:created": "01/04/2008",
+        "gnis:feature_id": "2370597",
+        "gnis:state_id": "06",
+        "name": "The Wright Institute",
+        "wikidata": "Q8038222"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2536098,
+          37.8681537
+        ]
+      },
+      "id": "node/358858264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/358858511",
+        "amenity": "school",
+        "ele": "5",
+        "gnis:county_id": "001",
+        "gnis:created": "01/04/2008",
+        "gnis:feature_id": "2370678",
+        "gnis:state_id": "06",
+        "name": "Ex'pression College for Digital Arts",
+        "wikidata": "Q5419099"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2952856,
+          37.8475957
+        ]
+      },
+      "id": "node/358858511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/540608929",
+        "addr:city": "Berkeley",
+        "addr:housenumber": "2087",
+        "addr:street": "Addison Street",
+        "amenity": "school",
+        "name": "Jazz School",
+        "wikidata": "Q6168471",
+        "wikipedia": "en:Jazzschool"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268945,
+          37.871184
+        ]
+      },
+      "id": "node/540608929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/939040762",
+        "addr:housenumber": "1",
+        "addr:street": "Lawson Road",
+        "amenity": "school",
+        "name": "Skytown Preschool",
+        "website": "http://www.skytown.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.282741,
+          37.9182754
+        ]
+      },
+      "id": "node/939040762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1375402641",
+        "amenity": "school",
+        "name": "Ecole Bilingue",
+        "website": "eb.org"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2894007,
+          37.8542809
+        ]
+      },
+      "id": "node/1375402641"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1864932007",
+        "addr:city": "Berkeley",
+        "addr:housenumber": "1581",
+        "addr:postcode": "94708",
+        "addr:street": "Le Roy Avenue",
+        "amenity": "school",
+        "name": "Hillside School",
+        "operator": "German International School of Silicon Valley",
+        "phone": "+1 510 558 0436",
+        "website": "http://www.gissv.org/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2587583,
+          37.8805767
+        ]
+      },
+      "id": "node/1864932007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1889704764",
+        "amenity": "school",
+        "name": "Kitchen On Fire",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.268933,
+          37.879765
+        ]
+      },
+      "id": "node/1889704764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1889727354",
+        "amenity": "school",
+        "name": "Kitchen On Fire West",
+        "website": "https://kitchenonfire.com/about-us/locations/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.291569,
+          37.851721
+        ]
+      },
+      "id": "node/1889727354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2297539508",
+        "addr:city": "Berkeley",
+        "addr:housenumber": "2138",
+        "addr:street": "Cedar Street",
+        "amenity": "school",
+        "name": "Berkeley Rose School",
+        "website": "http://berkeleyrose.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2674827,
+          37.8784754
+        ]
+      },
+      "id": "node/2297539508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2339806685",
+        "addr:city": "Berkeley",
+        "addr:housenumber": "2071",
+        "addr:street": "Addison Street",
+        "amenity": "school",
+        "name": "Berkeley Rep School Of Theatre"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.2691109,
+          37.871164
+        ]
+      },
+      "id": "node/2339806685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4224524389",
+        "addr:housenumber": "3102",
+        "addr:postcode": "94705",
+        "addr:street": "Shattuck Avenue",
+        "amenity": "school",
+        "email": "sheri.tharp@gmail.com",
+        "name": "Sheri Tharp Woodcarving Classes",
+        "opening_hours": "Sa 10:00-16:00; Th 10:00-16:00, 19:00-22:00",
+        "operator": "Sheri Tharp",
+        "phone": "5108438537",
+        "website": "tharpcarvingstudio.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.266305,
+          37.8529079
+        ]
+      },
+      "id": "node/4224524389"
+    }
+  ]
+}
