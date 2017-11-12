@@ -1,3 +1,10 @@
+//new map
+var map = L.map('map', {
+    center: [37.866676, -122.277469], // EDIT latitude, longitude to re-center map
+    zoom: 13,  // EDIT from 1 to 18 -- decrease to zoom out, increase to zoom in
+    scrollWheelZoom: false
+  });
+
 // We'll append our markers to this global variable
 var json_group = new L.FeatureGroup();
 
@@ -353,11 +360,15 @@ $('#geocoder').geocodify({
 
 
 // Base map
+
+/*
 //var layer = new L.StamenTileLayer('toner-background');
 var layer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	maxZoom: 19,
 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
+
+
 var map = new L.Map('map', {
     //center: new L.LatLng(42,-93.3),
     center: new L.LatLng(37.866676, -122.277469),
@@ -370,9 +381,11 @@ var map = new L.Map('map', {
     scrollWheelZoom: false //,
     //maxBounds: [[33.154799,-116.586914],[50.190089,-77.563477]]
 });
+
 // Add base layer to group
 map.addLayer(layer);
 
+*/
 // Add our markers in our JSON file on the map
 map.addLayer(json_group);
 
