@@ -225,8 +225,25 @@ $('select').change(function() {
     changeCircleRadius();
 });
 
+//---------------------------------------------------------------------
+/* Upload Latitude/Longitude markers from data.csv file, show Title in pop-up, and override initial center and zoom to fit all in map */
+var json_group = L.geoJson(null, {
+  onEachFeature: function(feature, layer) {
+    layer.bindPopup(feature.properties.Title);
+  }
+ });
+ var runLayer = omnivore.csv('./data.csv', null, json_group)
+ .on('ready', function() {
+  map.fitBounds(runLayer.getBounds());
+ }).addTo(map);
+
+// controlLayers.addOverlay(customLayer, 'Markers from data.csv');
+
+//---------------------------------------------------------------------
 // This loops through the data in our JSON file
 // And puts it on the map
+
+/*
 _.each(json_data, function(num) {
     var dataLat = num['latitude'];
     var dataLong = num['longitude'];
@@ -283,6 +300,8 @@ _.each(json_data, function(num) {
     json_group.addLayer(layer_marker);
 // Close for loop
 }, this);
+*/
+
 
 // jQuery Geocodify
 var maxY = 45;
