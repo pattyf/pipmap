@@ -1,6 +1,82 @@
-<html>
+<!doctype html>
+<head>
+	<title>Find Places within a Search Radius</title>
+
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+	<!-- Mobile meta tags-->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-touch-fullscreen" content="yes" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta http-equiv="cleartype" content="on">
+
+	<!-- CSS: Libs -->
+	<link rel="stylesheet" href="css/lib/bootstrap.css" />
+	<link rel="stylesheet" href="css/lib/font-awesome.css" />
+	<link rel="stylesheet" href="css/lib/leaflet.css" />
+	<link rel="stylesheet" href="css/lib/leaflet.awesome-markers.css" />
+	<!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/lib/font-awesome-ie7.min.css" />
+    <![endif]-->
+
+	<!-- CSS: Custom -->
+	<link rel="stylesheet" href="css/styles.css" />
+
+	<!-- JS: Libs -->
+	<script type="text/javascript" src="js/lib/jquery.js"></script>
+	<script type="text/javascript" src="js/lib/underscore.js"></script>
+	<script type="text/javascript" src="js/lib/leaflet.js"></script>
+	<script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.4"></script>
+	<script type="text/javascript" src="js/lib/leaflet.awesome-markers.js"></script>
+	<script type="text/javascript" src="js/lib/jquery.geocodify.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+</head>
 <body>
-Hello World
-Goodbye
+
+	<!-- Legend -->
+	<div id="legend">
+		<h3>Find Places within Radius</h3>
+		<p>
+		Enter an address or click on the map to find places within the search radius.
+		<br>
+		<li><em>Once displayed, you can also drag the search marker.</em></li>
+		<p>
+
+		<div id="geocoder_box" class="geocoder">
+			<form id="geocoder" class="geocoder"></form>
+		</div>
+		
+		<div>Search radius:</div>
+		<div class="form">
+			<select id="radius-selected" name="radius">
+				<option value="0.25">0.25 miles</option>
+				<option value="0.5" selected>0.5 miles</option>
+				<option value="1">1 miles</option>
+				<option value="1.5">1.5 miles</option>
+				<option value="2">2 miles</option>
+			</select>
+		</div>
+
+		<h3>Results</h3>
+		<p>
+		<span id="json_one_results_title">
+		<span id="json_one_results">0</span> 
+		<span id="json_one_title">providers</span></span> are within the given radius.</p>
+		<span id="json_names"></span>
+
+		<hr>
+		<h5>About</h5>
+		<p>Original code by <a href="https://github.com/csessig86/leaflet-markers-within-radius" target="_blank">Chris Essig</a>.</p>
+	</div>
+
+	<!-- Map -->
+	<div id="map"></div>
+
+	<!-- JS: Custom -->
+	<script type="text/javascript" src="js/berkeley_schools.json"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
